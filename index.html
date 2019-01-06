@@ -2,14 +2,26 @@
 <html>
     <head>
         <title> Home </title>
-            <link rel="stylesheet" href="/leaflet/leaflet.css" />
-            <script src="/leaflet/leaflet.js"></script>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+            <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
         <nav>
         </nav>
         <div class="main">
                 <h1> BPA site title holder </h1>
+                
         </div>
+        <div id="map"></div>
     </body>
+     <script type="text/javascript">
+        var map = L.map('map').setView([38.9072, -77.0369], 13);
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox.streets',
+            accessToken: 'pk.eyJ1IjoiYmxhY2ttb3JlMCIsImEiOiJjaXlub251ZjIwMDJmMnBxems2bmpiYXA2In0.2Hxl5QoDhIY6OR4p3GsU2w'
+        }).addTo(map);
+    </script>
 </html>
