@@ -2,6 +2,11 @@
 <html>
     <head>
         <title> Home </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Tyler Larson, Abdurahman Zine">
+        <meta name="description" content="BPA Washington D.C. NLC">
+        <meta name="keywords" content="BPA, NLC, Washington">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
         <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
@@ -9,51 +14,6 @@
         <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <nav>
-        </nav>
-        <div class="main">
-                <h1> BPA site title holder </h1>
-                <p> this is a paragrpah NOW DAB ON EM CHILDRENNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</p>
-        </div>
-        <!-- DO NOT PUT THIS IN ANOTHER DIV -->
-        <div id="map"></div>
+
     </body>
-
-    <!-- DON'T TOUCH THE BELOW CODE -->
-    <!-- API REFERENCE LINK: https://leafletjs.com/reference-1.4.0.html -->
-    
-     <script type="text/javascript">
-        var map = L.map('map').setView([38.9072, -77.0369], 13);
-        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-            maxZoom: 18,
-            id: 'mapbox.streets',
-            accessToken: 'pk.eyJ1IjoiYmxhY2ttb3JlMCIsImEiOiJjaXlub251ZjIwMDJmMnBxems2bmpiYXA2In0.2Hxl5QoDhIY6OR4p3GsU2w'
-        }).addTo(map);
-
-        var marker = L.marker([38.9072, -77.0369]).addTo(map);
-
-        var circle = L.circle([38.9072, -77.0669], {
-            color: 'red',
-            fillColor: '#f03',
-            fillOpacity: 0.5,
-            radius: 50
-        }).addTo(map);
-
-        var polygon = L.polygon([
-            [51.509, -0.08],
-            [51.503, -0.06],
-            [51.51, -0.047]
-        ]).addTo(map);
-
-        marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-        circle.bindPopup("I am a circle.");
-        polygon.bindPopup("I am a polygon.");
-
-        var popup = L.popup()
-            .setLatLng([38.9072, -77.0369])
-            .setContent("<b> Washington D.C. is where BPA NLC 2020 will be taking place! </b><br> <li> Explore this map to find interesting things around the city and competition area! </li> <li>Click on the markers and circles to get more information about that place!</li> ")
-            .openOn(map);
-    </script>
-
 </html>
