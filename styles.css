@@ -12,3 +12,11 @@ font-family: 'Open Sans', sans-serif;
 	height: 500px;
 	width: 700px;
 }
+
+/* Typed.js Styles */
+/* Cursor */
+.typed-cursor {
+	font-size: 25px;
+	color: black;
+	opacity: 1;
+}
