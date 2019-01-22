@@ -65,7 +65,31 @@
             accessToken: 'pk.eyJ1IjoiYmxhY2ttb3JlMCIsImEiOiJjaXlub251ZjIwMDJmMnBxems2bmpiYXA2In0.2Hxl5QoDhIY6OR4p3GsU2w'
         }).addTo(map);
 
-        var marker = L.marker([38.9072, -77.0369]).addTo(map);
+        var lincoln = L.marker([38.8895, -77.05]).addTo(map);
+        lincoln.bindPopup("<b>The Lincoln Memorial</b>").openPopup();
+
+        var washingtonmon = L.marker([38.8895, -77.0353]).addTo(map);
+        washingtonmon.bindPopup("<b>The Washington Monument</b>").openPopup();
+
+        var whitehouse = L.marker([38.8977, -77.0365]).addTo(map);
+        whitehouse.bindPopup("<b>The White House</b>").openPopup();
+
+        var cap = L.marker([38.8899, -77.0091]).addTo(map);
+        cap.bindPopup("<b>The United States Capitol</b>").openPopup();
+
+        var smith = L.marker([38.8860, -77.0213]).addTo(map);
+        smith.bindPopup("<b>The Smithsonian Institution </b>").openPopup();
+
+        var tom = L.marker([38.8814, -77.0365]).addTo(map);
+        tom.bindPopup("<b>The Thomas Jefferson Memorial </b>").openPopup();
+
+        var arling = L.marker([38.8783, -77.0687]).addTo(map);
+        arling.bindPopup("<b>Arlington National Cemetary </b>").openPopup();
+
+        var air = L.marker([38.8882, -77.0199]).addTo(map);
+        air.bindPopup("<b> National Air and Space Museum </b>").openPopup();
+
+
 
         var circle = L.circle([38.9072, -77.0669], {
             color: 'red',
@@ -80,7 +104,7 @@
             [51.51, -0.047]
         ]).addTo(map);
 
-        marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+        
         circle.bindPopup("I am a circle.");
         polygon.bindPopup("I am a polygon.");
 
