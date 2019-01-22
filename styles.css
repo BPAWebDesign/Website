@@ -88,6 +88,12 @@ a:hover {
 	float: right;
 }
 
+#aboutactive {
+	background-color:#116466;
+	color:#d1e8e2;
+	float: right;
+}
+
 #bigheading {
 	font-size: 100px;
 }
