@@ -105,6 +105,7 @@ a:hover {
 	background-color:#112D32;
 	padding: 6px;
 	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 13px;
 }
 
 /*styling for the pictures on attractions page*/
@@ -165,7 +166,7 @@ a:hover {
 
 .picture2 {
 	position: relative;
-	top: 380px;
+	top: -380px;
 	width: 600px;
 	height: 600;
 	left:330px;
@@ -266,6 +267,7 @@ a:hover {
 	height: 600;
 	left:330px;
 	padding-top: 10px;
+	z-index: -1;
 }
 
 .squaresix {
@@ -297,6 +299,7 @@ a:hover {
 	height: 600;
 	left:330px;
 	padding-top: 10px;
+	z-index: -1;
 }
 
 .squareseven {
@@ -328,6 +331,7 @@ a:hover {
 	height: 600;
 	left:330px;
 	padding-top: 10px;
+	z-index: -1;
 }
 
 .squareeight {
@@ -359,4 +363,5 @@ a:hover {
 	height: 600;
 	left:330px;
 	padding-top: 10px;
+	z-index: -1;
 }
