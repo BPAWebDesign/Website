@@ -95,6 +95,268 @@ a:hover {
 	float: right;
 }
 
-#bigheading {
-	font-size: 100px;
+.header {
+	font-size: 30px;
+}
+
+#biggerheading {
+	font-size: 40px;
+	margin-left: 0px;
+	background-color:#112D32;
+	padding: 6px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+}
+
+/*styling for the pictures on attractions page*/
+
+.squareone {
+	top: 480px;
+	width: 1000px;
+	left:200px;
+	border-radius: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+	height: 550px;
+}
+
+
+.colorchanger1 {
+	background-color:#02547D;
+	width: 280px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-right: 8px;
+	bottom: 200px;
+	height: 390px;
+}
+
+.picture1 {
+	position: relative;
+	top: -380px;
+	width: 600px;
+	height: 600;
+	left:330px;
+	padding-top: 10px;
+	z-index: -1;
+}
+
+.squaretwo {
+	top: 980px;
+	width: 1000px;
+	left:200px;
+	border-radius: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+	height: 550px;
+}
+
+
+.colorchanger2 {
+	background-color:#02547D;
+	width: 280px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-right: 8px;
+	bottom: 200px;
+	height: 390px;
+}
+
+.picture2 {
+	position: relative;
+	top: 380px;
+	width: 600px;
+	height: 600;
+	left:330px;
+	padding-top: 10px;
+	z-index: -1;
+}
+
+.squarethree {
+	top: 1480px;
+	width: 1000px;
+	left:200px;
+	border-radius: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+	height: 550px;
+}
+
+
+.colorchanger3 {
+	background-color:#02547D;
+	width: 280px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-right: 8px;
+	bottom: 200px;
+	height: 390px;
+}
+
+.picture3 {
+	position: relative;
+	top: -380px;
+	width: 600px;
+	height: 600;
+	left:330px;
+	padding-top: 10px;
+	z-index: -1;
+}
+
+.squarefour {
+	top: 1980px;
+	width: 1000px;
+	left:200px;
+	border-radius: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+	height: 550px;
+}
+
+
+.colorchanger4 {
+	background-color:#02547D;
+	width: 280px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-right: 8px;
+	bottom: 200px;
+	height: 390px;
+}
+
+.picture4 {
+	position: relative;
+	top: -380px;
+	width: 600px;
+	height: 600;
+	left:330px;
+	padding-top: 10px;
+	z-index: -1;
+}
+
+.squarefive {
+	top: 480px;
+	width: 1000px;
+	left:200px;
+	border-radius: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+	height: 550px;
+}
+
+
+.colorchanger5 {
+	background-color:#02547D;
+	width: 280px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-right: 8px;
+	bottom: 200px;
+	height: 390px;
+}
+
+.picture5 {
+	position: relative;
+	top: -380px;
+	width: 600px;
+	height: 600;
+	left:330px;
+	padding-top: 10px;
+}
+
+.squaresix {
+	top: 480px;
+	width: 1000px;
+	left:200px;
+	border-radius: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+	height: 550px;
+}
+
+
+.colorchanger6 {
+	background-color:#02547D;
+	width: 280px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-right: 8px;
+	bottom: 200px;
+	height: 390px;
+}
+
+.picture6 {
+	position: relative;
+	top: -380px;
+	width: 600px;
+	height: 600;
+	left:330px;
+	padding-top: 10px;
+}
+
+.squareseven {
+	top: 480px;
+	width: 1000px;
+	left:200px;
+	border-radius: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+	height: 550px;
+}
+
+
+.colorchanger7 {
+	background-color:#02547D;
+	width: 280px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-right: 8px;
+	bottom: 200px;
+	height: 390px;
+}
+
+.picture7 {
+	position: relative;
+	top: -380px;
+	width: 600px;
+	height: 600;
+	left:330px;
+	padding-top: 10px;
+}
+
+.squareeight {
+	top: 480px;
+	width: 1000px;
+	left:200px;
+	border-radius: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+	height: 550px;
+}
+
+
+.colorchanger8 {
+	background-color:#02547D;
+	width: 280px;
+	box-shadow: 4px 8px 33px 0.8px rgba(0,0,0,0.4);
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-right: 8px;
+	bottom: 200px;
+	height: 390px;
+}
+
+.picture8 {
+	position: relative;
+	top: -380px;
+	width: 600px;
+	height: 600;
+	left:330px;
+	padding-top: 10px;
 }
