@@ -15,9 +15,7 @@
         <link rel="stylesheet" href="styles.css"/>
 	</head>
 	<body>
-		<nav>
-        </nav>
-        <div class="main">
+    
 
             <div class="navbar">
                 <nav>
@@ -45,14 +43,14 @@
 
         	<div id="map"></div>
             
-        </div>
-    </body>
+        
+    
 
     <!-- DON'T TOUCH THE BELOW CODE -->
     <!-- API REFERENCE LINK: https://leafletjs.com/reference-1.4.0.html -->
     
    	<!-- Leaflet -->
-    <script type="text/javascript">
+        <script type="text/javascript">
     	var map = L.map('map').setView([38.9072, -77.0369], 13);
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -108,5 +106,6 @@
             .setLatLng([38.9072, -77.0369])
             .setContent("<b> Washington D.C. is where BPA NLC 2020 will be taking place! </b><br> <li> Explore this map to find interesting things around the city and competition area! </li> <li>Click on the markers and circles to get more information about that place!</li> ")
             .openOn(map);
-    </script>
+        </script>
+    </body>
 </html>
