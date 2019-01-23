@@ -81,6 +81,7 @@ h2 {
 	color:#bbb5aa;
 }
 
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	color:#bbb5aa;
@@ -386,7 +387,7 @@ a:hover {
 
 .box1 {
 	position: absolute;
-	top:62px;
+	top:122px;
 	width: 600px;
 	padding:10px;
 	left:40px;
@@ -396,7 +397,7 @@ a:hover {
 
 .box2 {
 	position: absolute;
-	top:62px;
+	top:122px;
 	width: 600px;
 	left:750px;
 	font-size:16px;
@@ -405,7 +406,7 @@ a:hover {
 
 .box3 {	
 	position: absolute;
-	top:388px;
+	top:448px;
 	width: 600px;
 	left:40px;
 	font-size:16px;
@@ -415,7 +416,7 @@ a:hover {
 
 .box4 {
 	position: absolute;
-	top: 388px;
+	top: 448px;
 	width: 600px;
 	left: 750px;
 	font-size:16px;
