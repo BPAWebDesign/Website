@@ -83,7 +83,7 @@
 
 
 
-        var circle = L.circle([38.9072, -77.0669], {
+        /* var circle = L.circle([38.9072, -77.0669], {
             color: 'red',
             fillColor: '#f03',
             fillOpacity: 0.5,
@@ -99,10 +99,10 @@
         
         circle.bindPopup("I am a circle.");
         polygon.bindPopup("I am a polygon.");
-
+*/
         var popup = L.popup()
             .setLatLng([38.9072, -77.0369])
-            .setContent("<b> Washington D.C. is where BPA NLC 2020 will be taking place! </b><br> <li> Explore this map to find interesting things around the city and competition area! </li> <li>Click on the markers and circles to get more information about that place!</li> ")
+            .setContent("<b> Washington D.C. is where BPA NLC 2020 will be taking place! </b><br> <li> Explore this map to find attactions around the city and competition area! </li> <li>Click on the circles to get more information about that place!</li> ")
             .openOn(map);
         </script>
     </body>
