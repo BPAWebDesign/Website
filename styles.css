@@ -76,6 +76,11 @@ h1 {
 	color:#bbb5aa;
 }
 
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color:#bbb5aa;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	color:#bbb5aa;
@@ -365,3 +370,51 @@ a:hover {
 	padding-top: 10px;
 	z-index: -1;
 }
+
+/*divs for transportation page, table format from about me*/
+
+.maindivy {
+	position:relative;
+	margin:30px;
+	height: 598px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.box1 {
+	position: absolute;
+	top:62px;
+	width: 600px;
+	padding:10px;
+	left:40px;
+	font-size:16px;
+	z-index: -1;
+}
+
+.box2 {
+	position: absolute;
+	top:62px;
+	width: 600px;
+	left:750px;
+	font-size:16px;
+	z-index: -1;
+}
+
+.box3 {	
+	position: absolute;
+	top:388px;
+	width: 600px;
+	left:40px;
+	font-size:16px;
+	z-index: -1;
+}
+
+
+.box4 {
+	position: absolute;
+	top: 388px;
+	width: 600px;
+	left: 750px;
+	font-size:16px;
+	z-index: -1;
+}
+
