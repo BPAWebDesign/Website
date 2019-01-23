@@ -418,3 +418,67 @@ a:hover {
 	z-index: -1;
 }
 
+/*divs for food page*/
+
+.oneup {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	width:400px;
+	background-color: #02547D;
+}
+
+.twoup {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	width:400px;
+	left:500px;
+	background-color: #02547D;
+}
+
+.threeup {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	width:400px;
+	left: 1000px;
+	background-color: #02547D;
+}
+
+/*divs for Dress Code*/
+
+.oneupv2 {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	width:400px;
+	background-color: #02547D;
+}
+
+.twoupv2 {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	width:400px;
+	background-color: #02547D;
+	margin-top: 70px;
+}
+
+.threeupv2 {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	width:400px;
+	margin-top: 70px;
+	background-color: #02547D;
+}
+
+.fulldiv1 {
+	margin-left: 500px;
+}
+
+.fulldiv2 {
+	margin-left: 500px;
+	margin-top: 70px;
+}
