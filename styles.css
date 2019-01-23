@@ -113,6 +113,10 @@ a:hover {
 	padding-left: 13px;
 }
 
+.badlink {
+	color: black;
+}
+
 /*styling for the pictures on attractions page*/
 
 .squareone {
