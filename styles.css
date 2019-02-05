@@ -30,6 +30,7 @@ font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 100px;
+
 }
 
 /*Navbar Styling*/
@@ -429,6 +430,7 @@ a:hover {
 	position: absolute;
 	z-index: -1;
 	padding: 20px;
+	left: 10px;
 	width:400px;
 	background-color: #02547D;
 }
