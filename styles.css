@@ -88,6 +88,10 @@ p {
 	color:#bbb5aa;
 }
 
+.special {
+	color:white;
+}
+
 a:hover {
 	color:#88BDBC;
 }
@@ -103,7 +107,8 @@ a:hover {
 }
 
 .header {
-	font-size: 20px;
+	font-size: 27px;
+	margin-bottom: 20px;
 }
 
 #biggerheading {
@@ -388,28 +393,28 @@ a:hover {
 
 .box1 {
 	position: absolute;
-	top:122px;
+	top:172px;
 	width: 600px;
 	padding:10px;
-	left:40px;
+	left:80px;
 	font-size:16px;
 	z-index: -1;
 }
 
 .box2 {
 	position: absolute;
-	top:122px;
+	top:172px;
 	width: 600px;
-	left:750px;
+	left:770px;
 	font-size:16px;
 	z-index: -1;
 }
 
 .box3 {	
 	position: absolute;
-	top:448px;
+	top:522px;
 	width: 600px;
-	left:40px;
+	left:80px;
 	font-size:16px;
 	z-index: -1;
 }
@@ -417,11 +422,66 @@ a:hover {
 
 .box4 {
 	position: absolute;
-	top: 448px;
+	top: 522px;
 	width: 600px;
-	left: 750px;
+	left: 770px;
 	font-size:16px;
 	z-index: -1;
+}
+
+.box5 {
+	position: absolute;
+	top: 880px;
+	width:600px;
+	left:80px;
+	font-size:16px;
+	z-index: -1;
+}
+
+.box6 {
+	position: absolute;
+	top: 880px;
+	width: 600px;
+	left: 770px;
+	font-size:16px;
+	z-index: -1;
+}
+
+.imagefixer {
+	margin-bottom:1000px;
+	margin-left: 330px;
+	margin-top: -164px;
+}
+
+.verticalhrmiddle {
+    background-color:white;
+    -webkit-transform:rotate(90deg);
+    position:absolute;
+    width:1200px;
+    height:3px;
+    border:2px;
+	top:780px;
+	left:140px;
+}
+
+.horizontalhrmiddle {
+    background-color:white;
+    position:absolute;
+    width:1470px;
+    height:3px;
+    left:20px;
+    border:2px;
+	top:510px;
+}
+
+.horizontalhrmiddle2 {
+    background-color:white;
+    position:absolute;
+    width:1470px;
+    height:3px;
+    left:20px;
+    border:2px;
+	top:870px;
 }
 
 /*divs for food page*/
@@ -461,6 +521,7 @@ a:hover {
 	padding: 20px;
 	width:400px;
 	background-color: #02547D;
+	margin-left: 350px;
 }
 
 .twoupv2 {
@@ -470,6 +531,7 @@ a:hover {
 	width:400px;
 	background-color: #02547D;
 	margin-top: 70px;
+	margin-left: 350px;
 }
 
 .threeupv2 {
@@ -479,14 +541,21 @@ a:hover {
 	width:400px;
 	margin-top: 70px;
 	background-color: #02547D;
+	margin-left: 350px;
+	margin-bottom: 30px;
 }
 
 .fulldiv1 {
-	margin-left: 500px;
+	margin-left: 850px;
 }
 
 .fulldiv2 {
-	margin-left: 500px;
+	margin-left: 850px;
+	margin-top: 70px;
+}
+
+.fulldiv3 {
+	margin-left: 850px;
 	margin-top: 70px;
 }
 
