@@ -489,3 +489,9 @@ a:hover {
 	margin-left: 500px;
 	margin-top: 70px;
 }
+
+/* dress code fonts for lists */
+
+ul {
+	font-family: 'Open Sans', sans-serif;
+}
