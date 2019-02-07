@@ -524,6 +524,7 @@ a:hover {
 	width:400px;
 	background-color: #02547D;
 	top: 800px;
+	margin-bottom: 20px;
 }
 
 .fiveup {
@@ -534,6 +535,7 @@ a:hover {
 	left:545px;
 	background-color: #02547D;
 	top: 800px;
+	margin-bottom: 20px;
 }
 
 .sixup {
@@ -544,6 +546,7 @@ a:hover {
 	left: 1060px;
 	background-color: #02547D;
 	top: 800px;
+	margin-bottom: 20px;
 }
 
 /*divs for Dress Code*/
