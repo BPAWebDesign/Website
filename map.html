@@ -13,6 +13,7 @@
         <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
         <link rel="stylesheet" href="styles.css"/>
+
 	</head>
 	<body>
     
@@ -33,7 +34,7 @@
         	<div class="header">
 
         		<div class="header-content-container-upper">
-                	<h1 align="center" > Use the below map to examine locations around Washington D.C.!</h1>
+                	<h1 align="center" > Washington D.C. Map </h1>
             	</div>
 
             </div>
@@ -49,10 +50,11 @@
     
    	<!-- Leaflet -->
         <script type="text/javascript">
-    	var map = L.map('map').setView([38.9072, -77.0369], 13);
+ 
+    	var map = L.map('map').setView([38.88756613562004, -77.03227043151857], 12);
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-            maxZoom: 18,
+            maxZoom: 20,
             id: 'mapbox.streets',
             accessToken: 'pk.eyJ1IjoiYmxhY2ttb3JlMCIsImEiOiJjaXlub251ZjIwMDJmMnBxems2bmpiYXA2In0.2Hxl5QoDhIY6OR4p3GsU2w'
         }).addTo(map);
@@ -83,13 +85,39 @@
 
 
 
-        /* var circle = L.circle([38.9072, -77.0669], {
+         var bltprime = L.circle([38.894107, -77.027564], {
             color: 'red',
             fillColor: '#f03',
             fillOpacity: 0.5,
-            radius: 50
+            radius: 70
         }).addTo(map);
+         bltprime.bindPopup("<b> BLT Prime by David Burke </b> <br> Address: 1100 Pennsylvania Ave NW, Washington, DC 20004").openPopup();
 
+         var thehamilton = L.circle([38.897694, -77.032276], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 70
+        }).addTo(map);
+         thehamilton.bindPopup("<b> The Hamilton </b> <br> Address: 600 14th St NW, Washington, DC 20005").openPopup();
+
+         var timber = L.circle([38.942112, -77.023832], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 70
+        }).addTo(map);
+         timber.bindPopup("<b> Timber Pizza Company </b> <br> Address: 809 Upshur St NW, Washington, DC 20011").openPopup();
+
+
+         var gaylord = L.circle([38.79739, -76.99758], {
+            color: 'blue',
+            fillColor: '#5394fc',
+            fillOpacity: 0.5,
+            radius: 70
+        }).addTo(map);
+         gaylord.bindPopup("<b> Gaylord National Resort & Convention Center </b> <br> Address: 201 Waterfront St, National Harbor, MD 20745").openPopup();
+/*
         var polygon = L.polygon([
             [51.509, -0.08],
             [51.503, -0.06],
@@ -101,8 +129,8 @@
         polygon.bindPopup("I am a polygon.");
 */
         var popup = L.popup()
-            .setLatLng([38.9072, -77.0369])
-            .setContent("<b> Washington D.C. is where BPA NLC 2020 will be taking place! </b><br> <li> Explore this map to find attactions around the city and competition area! </li> <li>Click on the circles to get more information about that place!</li> ")
+            .setLatLng([38.84505571861156, -77.02780723571779])
+            .setContent("<b> Washington D.C. is where the BPA NLC 2020 will be taking place! </b><br> <li> Explore this map to find attactions around the city and competition area! </li> <li>Click on the markers to get more information about a place!</li> <li> Blue Markers represent Attractions </li> <li> Red Circles represent Restaurants </li> <li> Blue Circles represents the Gaylord Hotel </li>")
             .openOn(map);
         </script>
     </body>
