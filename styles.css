@@ -493,7 +493,7 @@ a:hover {
 	position: absolute;
 	z-index: -1;
 	padding: 20px;
-	left: 10px;
+	left: 30px;
 	width:400px;
 	background-color: #02547D;
 }
@@ -503,7 +503,7 @@ a:hover {
 	z-index: -1;
 	padding: 20px;
 	width:400px;
-	left:500px;
+	left:545px;
 	background-color: #02547D;
 }
 
@@ -512,8 +512,38 @@ a:hover {
 	z-index: -1;
 	padding: 20px;
 	width:400px;
-	left: 1000px;
+	left: 1060px;
 	background-color: #02547D;
+}
+
+.fourup {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	left: 30px;
+	width:400px;
+	background-color: #02547D;
+	top: 800px;
+}
+
+.fiveup {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	width:400px;
+	left:545px;
+	background-color: #02547D;
+	top: 800px;
+}
+
+.sixup {
+	position: absolute;
+	z-index: -1;
+	padding: 20px;
+	width:400px;
+	left: 1060px;
+	background-color: #02547D;
+	top: 800px;
 }
 
 /*divs for Dress Code*/
