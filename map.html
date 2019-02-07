@@ -35,6 +35,7 @@
 
         		<div class="header-content-container-upper">
                 	<h1 align="center" > Washington D.C. Map </h1>
+                    <p align="center"> Use this map to locate Attractions and Restaurants around Washington D.C. </p>
             	</div>
 
             </div>
@@ -101,22 +102,48 @@
         }).addTo(map);
          thehamilton.bindPopup("<b> The Hamilton </b> <br> Address: 600 14th St NW, Washington, DC 20005").openPopup();
 
-         var timber = L.circle([38.942112, -77.023832], {
+         var italy = L.circle([38.7818304700706, -77.01745927333833], {
             color: 'red',
             fillColor: '#f03',
             fillOpacity: 0.5,
             radius: 70
         }).addTo(map);
-         timber.bindPopup("<b> Timber Pizza Company </b> <br> Address: 809 Upshur St NW, Washington, DC 20011").openPopup();
+         italy.bindPopup("<b> Pienza Italian Market </b> <br> Address: 201 Waterfront St, Oxon Hill, MD 20745").openPopup();
+
+         var granite = L.circle([38.78413, -77.014554], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 70
+        }).addTo(map);
+         granite.bindPopup("<b> Granite City </b> <br> Address: 200 American Way, National Harbor, MD 20745").openPopup();
+
+         var sau = L.circle([38.78006574535849, -77.0161235332489], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 70
+        }).addTo(map);
+         sau.bindPopup("<b> Sauciety an American Grill </b> <br> Address: 171 Waterfront St, Oxon Hill, MD 20745").openPopup();
+
+         var mc = L.circle([38.789677, -77.013824], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 70
+        }).addTo(map);
+         mc.bindPopup("<b> McDonald's </b> <br> Address: 121 North Cove Terrace, Oxon Hill, MD 20745").openPopup();
 
 
-         var gaylord = L.circle([38.79739, -76.99758], {
+         var gaylord = L.circle([38.78087702233216, -77.01760947704317], {
             color: 'blue',
             fillColor: '#5394fc',
             fillOpacity: 0.5,
             radius: 70
         }).addTo(map);
          gaylord.bindPopup("<b> Gaylord National Resort & Convention Center </b> <br> Address: 201 Waterfront St, National Harbor, MD 20745").openPopup();
+
+
 /*
         var polygon = L.polygon([
             [51.509, -0.08],
@@ -130,7 +157,7 @@
 */
         var popup = L.popup()
             .setLatLng([38.84505571861156, -77.02780723571779])
-            .setContent("<b> Washington D.C. is where the BPA NLC 2020 will be taking place! </b><br> <li> Explore this map to find attactions around the city and competition area! </li> <li>Click on the markers to get more information about a place!</li> <li> Blue Markers represent Attractions </li> <li> Red Circles represent Restaurants </li> <li> Blue Circles represents the Gaylord Hotel </li>")
+            .setContent("<b> Washington D.C. is where the BPA NLC 2020 will be taking place! </b><br> <li> Explore this map to find attactions around the city and competition area! </li> <li>Click on the markers to get more information about a place!</li> <li> Blue Markers represent Attractions </li> <li> Red Circles represent Restaurants </li> <li> The Blue Circle represents the Gaylord Hotel </li>")
             .openOn(map);
         </script>
     </body>
