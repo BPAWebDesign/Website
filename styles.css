@@ -43,6 +43,7 @@ font-family: 'Montserrat', sans-serif;
 	position: sticky;
     width: 100%;
 	top:0;
+	z-index: 31;
 	/* honestly kind of looks better and cleaner like this i think
 	box-shadow: 0px 8px 30px 0.6px rgba(0,0,0,0.4);
 	border-radius:10px;
@@ -491,7 +492,7 @@ a:hover {
 
 .oneup {
 	position: absolute;
-	z-index: -1;
+	
 	padding: 20px;
 	left: 30px;
 	width:400px;
@@ -500,7 +501,7 @@ a:hover {
 
 .twoup {
 	position: absolute;
-	z-index: -1;
+	
 	padding: 20px;
 	width:400px;
 	left:545px;
@@ -509,7 +510,7 @@ a:hover {
 
 .threeup {
 	position: absolute;
-	z-index: -1;
+	
 	padding: 20px;
 	width:400px;
 	left: 1060px;
@@ -518,7 +519,7 @@ a:hover {
 
 .fourup {
 	position: absolute;
-	z-index: -1;
+	
 	padding: 20px;
 	left: 30px;
 	width:400px;
@@ -529,7 +530,7 @@ a:hover {
 
 .fiveup {
 	position: absolute;
-	z-index: -1;
+	
 	padding: 20px;
 	width:400px;
 	left:545px;
@@ -540,7 +541,7 @@ a:hover {
 
 .sixup {
 	position: absolute;
-	z-index: -1;
+	
 	padding: 20px;
 	width:400px;
 	left: 1060px;
@@ -608,22 +609,26 @@ p.about {
 }
 
 .names {
-	height: 100px;
+	height: 4.5em;
+	position: relative;
+	
+	width: 765px;
 }
 
 .name1 {
 	background-color: #112D32;
-	position: relative;
-	width: 300px;
-	right: 14%;
-	top: 48%;
+	float: left;
+	width: 20em;
+	
 	color: #254E58;
+	
 }
 
 .name2 {
 	background-color: #112D32;
-	position: relative;
-	width: 300px;
-	left: 14%;
+	float: right;
+	width: 20em;
+	
 	color: #254E58;
+	float: right
 }
