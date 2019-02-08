@@ -600,3 +600,30 @@ a:hover {
 ul {
 	font-family: 'Open Sans', sans-serif;
 }
+
+/* abotut page */
+
+p.about {
+    width: 765px;
+}
+
+.names {
+	height: 100px;
+}
+
+.name1 {
+	background-color: #112D32;
+	position: relative;
+	width: 300px;
+	right: 14%;
+	top: 48%;
+	color: #254E58;
+}
+
+.name2 {
+	background-color: #112D32;
+	position: relative;
+	width: 300px;
+	left: 14%;
+	color: #254E58;
+}
